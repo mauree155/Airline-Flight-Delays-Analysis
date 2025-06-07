@@ -1,8 +1,19 @@
 # Airline-Flight-Delays-Analysis
-### Project Overview
+## Table of Contents
+1. [Project Overview](project-overview)
+2. [Business Problem](business-Problem)
+3. [Data Source](data-source)
+4. [Tools](Tools)
+5. [Dashboard](dashboard)
+6. [Processes](processes)
+7. [Key Insights](key-insights)
+8. [Recommendations](recommendations)
+9. [Conclusion](Conclusion)
+
+### 1. Project Overview
 This project provides a comprehensive view of airline flight delays across the United States in 2015. By analyzing 5,000,000+ flight records from the U.S. Department of Transportation’s Air Travel Consumer Report, this project uncovers patterns in flight volumes, cancellation reasons, and delay trends. An interactive Power BI dashboard was developed to deliver these insights visually and empower data-driven decision-making by airlines, airport authorities, and logistics partners.
 
-### Business Problem
+### 2. Business Problem
 #### Airline Flight Delays
 Flight delays and cancellations are a persistent challenge in commercial aviation, impacting both airline profitability and customer satisfaction. This project aims to address key questions:
 1. How does overall flight volume vary by month and day of the week?
@@ -11,7 +22,7 @@ Flight delays and cancellations are a persistent challenge in commercial aviatio
 4. How many flights were cancelled, and what were the primary reasons (weather, airline issues, etc.)?
 5. Which airlines demonstrate the best and worst on-time performance?
 
-### Data Source
+### 3. Data Source
 The dataset used in this analysis was shared with me by **Quantum Analytics** during my training. It originates from the **U.S. Department of Transportation’s Air Travel Consumer Report** for the year **2015**, covering over **5 million Airline names**
 - Flight number
 - Origin and destination airports
@@ -21,12 +32,12 @@ The dataset used in this analysis was shared with me by **Quantum Analytics** du
   
 **Note:** This rich and comprehensive dataset provides a robust foundation for data-driven insights into airline performance, operational efficiency, and seasonal patterns.
 
-### Tools
+### 4. Tools
 - **Power BI**: Data cleaning, transformation, and interactive dashboard design.
 - **Power Query**: Used within Power BI for data preparation and transformation.
 - **DAX (Data Analysis Expressions)**: Calculated columns and measures to derive insights and KPIs.
 - 
-### Dashboard
+### 5. Dashboard
 The interactive Power BI dashboard presents a clear, visual narrative of airline performance in 2015. Key dashboard elements include:
 - Flight Volume by Month & Day of Week
 - Departure Delay by City
@@ -36,7 +47,7 @@ The interactive Power BI dashboard presents a clear, visual narrative of airline
 
 ![image](https://github.com/user-attachments/assets/768630c2-64ae-4a4d-a00b-b191f52731da)
 
-### Processes
+### 6. Processes
 #### Step 1: Data Cleaning and Transformation
 •	Removed duplicates and irrelevant columns.
 •	Standardized date/time formats for accurate delay calculations.
@@ -51,7 +62,7 @@ The interactive Power BI dashboard presents a clear, visual narrative of airline
   - Delay and cancellation breakdowns by airline and city- Designed clear visuals (line charts, pie charts, and bar charts) to make complex data easy to interpret.
   - Enabled dynamic exploration of trends across months, cities, and airlines.
 
-### Key Insights
+### 7. Key Insights
 The comprehensive analysis of 2015 U.S. airline flight data revealed several critical patterns and areas of concern:
 #### Flight Volume & Seasonality
 - Peak Flight Volume: July recorded the highest flight activity with 521,000 flights, while February saw the lowest at 429,000 flights.
@@ -72,10 +83,10 @@ The comprehensive analysis of 2015 U.S. airline flight data revealed several cri
 - Southwest Airlines: Accounted for the highest share of departure delays among the top 5 airlines (58.58%).
 - Other Notable Carriers: United Airlines and Spirit Airlines also featured prominently among top contributors to departure delays, while Virgin America consistently outperformed in on-time departures.
 
-### Recommendations
+### 8. Recommendations
 Based on these findings, the following targeted recommendations are proposed to enhance operational performance, passenger experience, and overall airline reliability:
 #### Flight Volume & Operational Efficiency
-- **Crew and Aircraft Scheduling**: Align crew availability and aircraft maintenance windows with peak travel periods—particularly during summer months and weekends—to ensure optimal resource utilization.
+- **Crew and Aircraft Scheduling**: Align crew availability and aircraft maintenance windows with peak travel periods, particularly during summer months and weekends, to ensure optimal resource utilization.
 - **Capacity Management**: Expand airport and airline operational resources during high-volume periods (July–August) to mitigate operational strain and improve service delivery.
 #### Delay Reduction Strategies
 -**Boston (BOS) Focus**: Implement targeted operational interventions at Boston Logan International Airport to address congestion and turnaround challenges. Potential strategies include runway optimization, gate reassignment processes, and real-time traffic flow management.
@@ -85,12 +96,12 @@ Based on these findings, the following targeted recommendations are proposed to 
    Cancellation Mitigation
 - **Weather-Related Cancellations:**
   - Invest in advanced weather forecasting and monitoring systems.
-  - Develop and refine contingency planning for rapid recovery and service restoration during weather-related disruptions.
+  - Develop and refine contingency plans for rapid recovery and service restoration in the event of weather-related disruptions.
 - **Carrier-Related Cancellations:**
-  - Undertake operational audits to pinpoint inefficiencies (e.g., aircraft turnaround times, crew scheduling gaps, maintenance practices).
+  - Conduct operational audits to identify inefficiencies (e.g., aircraft turnaround times, crew scheduling gaps, and maintenance practices).
   - Benchmark performance against top-performing airlines to adopt and tailor best-in-class operational strategies.
 #### Airline Reliability Focus
-- **outhwest Airlines:** Prioritize comprehensive operational reviews and targeted improvement initiatives for Southwest Airlines, focusing on minimizing departure delays and enhancing passenger satisfaction.
+- **Southwest Airlines:** Prioritize comprehensive operational reviews and targeted improvement initiatives for Southwest Airlines, focusing on minimizing departure delays and enhancing passenger satisfaction.
 - **Industry-Wide Best Practices:**
   - Implement real-time analytics and monitoring systems to dynamically respond to emerging delays.
   - Strengthen collaboration with airport operators to improve gate turnaround efficiency and taxiway congestion management.
