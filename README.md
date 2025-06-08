@@ -49,10 +49,10 @@ The interactive Power BI dashboard presents a clear, visual narrative of airline
 
 ### 6. Processes
 #### Step 1: Data Cleaning and Transformation
-•	Removed duplicates and irrelevant columns.
-•	Standardized date/time formats for accurate delay calculations.
-•	Extracted Month, Day of Week, and City columns to enable deeper analysis.
-•	Created calculated measures for departure delay, arrival delay, and cancellation rates.
+-	Removed duplicates and irrelevant columns.
+- Standardized date/time formats for accurate delay calculations.
+- Extracted Month, Day of Week, and City columns to enable deeper analysis.
+- Created calculated measures for departure delay, arrival delay, and cancellation rates.
 #### Step 2: Dashboard Design and Storytelling
 - Built an intuitive Power BI dashboard with slicers for city, airline, and cancellation reason.
 - Integrated key metrics:
@@ -107,6 +107,5 @@ Based on these findings, the following targeted recommendations are proposed to 
   - Strengthen collaboration with airport operators to improve gate turnaround efficiency and taxiway congestion management.
 
 ### Conclusion 
-Here’s a simpler, yet still professional and well-rounded conclusion:
-This analysis highlights both the challenges and opportunities within the U.S. airline industry in 2015. While strong flight volumes show healthy demand, issues like delays, cancellations, and airline-specific bottlenecks suggest a need for more efficient operations. The data points to the importance of better planning during peak periods, addressing weather and carrier-related cancellations, and focusing on operational improvements in key airports and airlines.
+This project highlights both the challenges and opportunities within the U.S. airline industry in 2015. While strong flight volumes show healthy demand, issues like delays, cancellations, and airline-specific bottlenecks suggest a need for more efficient operations. The data points to the importance of better planning during peak periods, addressing weather and carrier-related cancellations, and focusing on operational improvements in key airports and airlines.
 By taking these insights and translating them into practical actions, airlines and airports can improve reliability, customer satisfaction, and overall performance. Ultimately, a data-driven approach will be crucial for building a more resilient and competitive airline industry in the future.
