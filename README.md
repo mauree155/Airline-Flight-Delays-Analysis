@@ -36,7 +36,7 @@ The dataset used in this analysis was shared with me by **Quantum Analytics** du
 - **Power BI**: Data cleaning, transformation, and interactive dashboard design.
 - **Power Query**: Used within Power BI for data preparation and transformation.
 - **DAX (Data Analysis Expressions)**: Calculated columns and measures to derive insights and KPIs.
-- 
+
 ### 5. Dashboard
 The interactive Power BI dashboard presents a clear, visual narrative of airline performance in 2015. Key dashboard elements include:
 - Flight Volume by Month & Day of Week
@@ -89,7 +89,7 @@ Based on these findings, the following targeted recommendations are proposed to 
 - **Crew and Aircraft Scheduling**: Align crew availability and aircraft maintenance windows with peak travel periods, particularly during summer months and weekends, to ensure optimal resource utilization.
 - **Capacity Management**: Expand airport and airline operational resources during high-volume periods (July–August) to mitigate operational strain and improve service delivery.
 #### Delay Reduction Strategies
--**Boston (BOS) Focus**: Implement targeted operational interventions at Boston Logan International Airport to address congestion and turnaround challenges. Potential strategies include runway optimization, gate reassignment processes, and real-time traffic flow management.
+- **Boston (BOS) Focus**: Implement targeted operational interventions at Boston Logan International Airport to address congestion and turnaround challenges. Potential strategies include runway optimization, gate reassignment processes, and real-time traffic flow management.
 - **Proactive Delay Management:**
  - Conduct root cause analyses to identify and mitigate bottlenecks causing the 9.37-minute average delay.
  - Enhance predictive maintenance programs and crew scheduling optimization to minimize unplanned disruptions.
